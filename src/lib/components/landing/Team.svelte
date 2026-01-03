@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import { onMount } from 'svelte';
     import gsap from 'gsap';
     import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
@@ -7,13 +7,13 @@
     
     // Team section
     const team = [
-        { name: "Andi Pratama", role: "Tech Lead", img: "bg-neutral-800" },
-        { name: "Siti Rahayu", role: "Product Manager", img: "bg-neutral-700" },
-        { name: "Budi Santoso", role: "UI/UX Designer", img: "bg-neutral-600" },
-        { name: "Dian Sastro", role: "Marketing", img: "bg-neutral-500" },
+        { name: "Ananda Wijaya", role: "Product Lead", img: "bg-neutral-800" },
+        { name: "Devina Dwi", role: "UI/UX Designer", img: "bg-neutral-700" },
+        { name: "Muhammad Fachry", role: "Tech Lead", img: "bg-neutral-600" },
+        { name: "Shafa Al Afghany", role: "Backend Developer", img: "bg-neutral-500" },
     ];
 
-    let sectionRef;
+    let sectionRef: HTMLElement;
 
     onMount(() => {
         const ctx = gsap.context(() => {
@@ -37,14 +37,14 @@
     <div class="container">
         <div class="mb-20">
             <h2 class="text-4xl md:text-5xl font-bold mb-4">Tim di Balik Layar</h2>
-            <p class="text-white/50 text-lg">The dreamers and doers behind the magic.</p>
+            <p class="text-white/50 text-lg">Tim yang selalu ada di balik setiap langkah, dari ide sampai jadi karya nyata.</p>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
             {#each team as member}
                 <div class="team-member group">
                     <!-- Arched Image Frame -->
-                    <div class="aspect-[3/4] rounded-t-[100px] rounded-b-none {member.img} mb-6 overflow-hidden relative grayscale group-hover:grayscale-0 transition-all duration-500">
+                    <div class="aspect-3/4 {member.img} mb-6 overflow-hidden relative grayscale group-hover:grayscale-0 transition-all duration-500">
                          <!-- Placeholder content -->
                         <div class="absolute inset-0 flex items-center justify-center opacity-30 text-4xl">
                             👤
