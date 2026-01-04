@@ -1,5 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
+    import { _ } from 'svelte-i18n';
     import Button from '$lib/components/ui/Button.svelte';
     
     let heroRef: HTMLElement;
@@ -67,37 +68,37 @@
         <div class="space-y-10 z-10">
             <div class="inline-flex items-center gap-3 px-4 py-2 bg-white/5 border border-white/10 backdrop-blur-sm text-brand-neon text-xs font-mono uppercase tracking-widest shadow-lg">
                 <span class="w-2 h-2 rounded-full bg-brand-neon animate-pulse shadow-[0_0_10px_#D9FF00]"></span>
-                Digital Product Team
+                {$_('hero.badge')}
             </div>
             
             <div bind:this={titleRef} class="space-y-0">
                 <div class="overflow-hidden">
                     <h1 class="line text-6xl md:text-8xl font-black leading-[0.85] tracking-[-0.04em] text-white uppercase">
-                        Nggak Cuma Mimpi.
+                        {$_('hero.headline1')}
                     </h1>
                 </div>
                 <div class="overflow-hidden">
                     <h1 class="line text-6xl md:text-8xl font-black leading-[0.85] tracking-[-0.04em] bg-linear-to-r from-brand-neon to-brand-purple bg-clip-text text-transparent uppercase pr-4 pb-2">
-                        Kami Bangun <br> Solusi Digital
+                        {$_('hero.headline2')} <br> {$_('hero.headline2b')}
                     </h1>
                 </div>
                 
                 <div class="overflow-hidden">
                     <h1 class="line text-6xl md:text-8xl font-black leading-[0.85] tracking-[-0.04em] text-white uppercase">
-                        dari Masalah Nyata.
+                        {$_('hero.headline3')}
                     </h1>
                 </div>
             </div>
 
 
             <p bind:this={subRef} class="text-xl text-white/60 max-w-lg leading-relaxed font-light">
-                Kita berangkat dari keresahan sehari-hari, terus kita sulap jadi produk digital yang beneran dipake, diuji, dan jadi bisnis yang sustainable. Bukan cuma project iseng.
+                {$_('hero.description')}
             </p>
 
             <div bind:this={buttonRef} class="flex flex-wrap gap-5">
-                <Button href="/contact" variant="primary" size="lg" class="text-lg font-bold px-10">Curhat Masalah Lo</Button>
+                <Button href="/contact" variant="primary" size="lg" class="text-lg font-bold px-10">{$_('hero.cta_primary')}</Button>
                 <Button href="/products" variant="outline" size="lg" class="text-lg px-8 border-current hover:bg-white hover:text-black hover:border-transparent">
-                    Liat Produk Kita
+                    {$_('hero.cta_secondary')}
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 w-5 h-5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
                 </Button>
             </div>
@@ -105,6 +106,3 @@
 
     </div>
 </section>
-
-
-

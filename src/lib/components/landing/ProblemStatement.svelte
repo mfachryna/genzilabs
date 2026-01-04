@@ -1,5 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
+    import { _ } from 'svelte-i18n';
 
     let sectionRef: HTMLElement;
 
@@ -38,21 +39,21 @@
             <div class="grid md:grid-cols-12 gap-12 items-center">
                  <!-- Main Headline Area -->
                 <div class="md:col-span-7 space-y-2">
-                    <span class="text-brand-neon font-mono text-sm tracking-widest uppercase mb-4 block anim-fade-up">FILOSOFI KITA</span>
+                    <span class="text-brand-neon font-mono text-sm tracking-widest uppercase mb-4 block anim-fade-up">{$_('philosophy.label')}</span>
                     <h2 class="text-5xl md:text-7xl font-black leading-[0.9] text-white uppercase tracking-tighter anim-fade-up">
-                        Berawal <br>
-                        <span class="text-transparent bg-clip-text bg-linear-to-r from-white to-white/50">Dari Pusing.</span>
+                        {$_('philosophy.headline1')} <br>
+                        <span class="text-transparent bg-clip-text bg-linear-to-r from-white to-white/50">{$_('philosophy.headline2')}</span>
                     </h2>
                 </div>
 
                  <!-- Supporting Text Area -->
                 <div class="md:col-span-5 space-y-8 anim-fade-up pt-8 md:pt-0">
                     <p class="text-white/80 text-xl md:text-2xl font-light leading-relaxed border-l-2 border-brand-neon pl-6">
-                        Ide doang mah murah. <br>
-                        <span class="text-white/40">Yang mahal tu solusi yang beneran nyelesain masalah.</span>
+                        {$_('philosophy.quote1')} <br>
+                        <span class="text-white/40">{$_('philosophy.quote2')}</span>
                     </p>
                     <p class="text-white/50 text-base leading-relaxed pl-6">
-                        Banyak hal kecil yang bikin ribet. Genzi lahir buat beresin itu semua jadi solusi digital yang sat-set, anti-ribet, dan impact-nya berasa.
+                        {$_('philosophy.description')}
                     </p>
                 </div>
             </div>

@@ -1,13 +1,10 @@
 <script lang="ts">
     import { onMount } from 'svelte';
+    import { _ } from 'svelte-i18n';
     import { slide } from 'svelte/transition';
 
     let sectionRef: HTMLElement;
-    let isExpanded = false;
-
-    function toggleExpand() {
-        isExpanded = !isExpanded;
-    }
+    let isExpanded = $state(false);
 
     onMount(async () => {
         const { gsap } = await import('gsap');
@@ -56,10 +53,10 @@
         <!-- Text Content Right -->
         <div class="md:col-span-7 bg-content space-y-8">
             <div>
-                <span class="text-brand-neon font-mono text-sm uppercase tracking-widest font-bold mb-4 block">Alkisah Kita</span>
+                <span class="text-brand-neon font-mono text-sm uppercase tracking-widest font-bold mb-4 block">{$_('aboutPage.storyLabel')}</span>
                 <h2 class="text-4xl md:text-5xl font-black leading-tight">
-                    Berawal dari Keresahan, <br>
-                    Bergerak Sesuai <span class="text-transparent bg-clip-text bg-linear-to-r from-brand-neon to-brand-purple">Kata Hati.</span>
+                    {$_('aboutPage.storyHeadline1')} <br>
+                    {$_('aboutPage.storyHeadline2')} <span class="text-transparent bg-clip-text bg-linear-to-r from-brand-neon to-brand-purple">{$_('aboutPage.storyHeadline3')}</span>
                 </h2>
             </div>
             
@@ -86,10 +83,10 @@
                 {/if}
 
                 <button 
-                    on:click={() => isExpanded = !isExpanded}
+                    onclick={() => isExpanded = !isExpanded}
                     class="text-brand-neon font-bold uppercase tracking-wider text-sm hover:underline underline-offset-4 decoration-brand-neon decoration-2 transition-all flex items-center gap-2"
                 >
-                    {isExpanded ? 'Lebih Dikit Aja' : 'Baca Selengkapnya'}
+                    {isExpanded ? $_('aboutPage.readLess') : $_('aboutPage.readMore')}
                     <svg 
                         xmlns="http://www.w3.org/2000/svg" 
                         class="w-4 h-4 transition-transform duration-300 {isExpanded ? 'rotate-180' : ''}" 

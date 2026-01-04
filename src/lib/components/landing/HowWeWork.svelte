@@ -1,35 +1,8 @@
 <script lang="ts">
     import { onMount } from 'svelte';
+    import { _ } from 'svelte-i18n';
 
     let sectionRef: HTMLElement;
-
-    const steps = [
-        {
-            number: "01",
-            title: "Cari Gara-Gara",
-            desc: "Kita kepo sama masalah yang beneran bikin pusing di lapangan. Bukan masalah yang diada-adain biar keliatan keren."
-        },
-        {
-            number: "02",
-            title: "Cek Ombak",
-            desc: "Tanya-tanya dulu, riset tipis-tipis. Jangan sampe cape-cape bikin taunya ga ada yang butuh. Sedih nanti."
-        },
-        {
-            number: "03",
-            title: "Bikin Versi Lite",
-            desc: "Bikin MVP yang penting jalan dulu. Jelek dikit gapapa, yang penting fungsinya dapet dan bisa dipake."
-        },
-        {
-            number: "04",
-            title: "Tes ke Tetangga",
-            desc: "Suruh temen atau user pake. Kalo mereka suka dan balik lagi, berarti udah oke. Kalo ga, ya revisi lagi."
-        },
-        {
-            number: "05",
-            title: "Gaskeun!",
-            desc: "Kalo udah valid dan traction oke, baru kita gas pol. Bikin fitur lengkap, cari duitnya, bangun bisnisnya."
-        }
-    ];
 
     onMount(async () => {
         const { gsap } = await import('gsap');
@@ -59,14 +32,14 @@
     <div class="container space-y-20">
 
         <div class="text-center space-y-6 max-w-3xl mx-auto">
-            <span class="text-brand-neon font-mono text-sm uppercase tracking-widest mb-2 block">CARA KITA KERJA</span>
+            <span class="text-brand-neon font-mono text-sm uppercase tracking-widest mb-2 block">{$_('howWeWork.label')}</span>
             <h2 class="text-4xl md:text-6xl font-bold leading-tight text-white">
-                Gimana Sih Cara Kita <br> Nyulap Ide Jadi Produk?
+                {$_('howWeWork.headline')}
             </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-6 gap-4">
-            {#each steps as step, i}
+            {#each $_('howWeWork.steps') as step, i}
                 <div 
                     class="work-step opacity-0 translate-y-12 bg-dark-card p-10 min-h-75 relative flex flex-col justify-end group transition-all duration-500 hover:bg-white/5
                     {i < 3 ? 'md:col-span-2' : 'md:col-span-3'}"

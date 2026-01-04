@@ -1,0 +1,162 @@
+{
+  "seo": {
+    "title": "Genzi Meraih Mimpi - Real Digital Solutions",
+    "description": "A digital team that starts from everyday frustrations to create impactful solutions.",
+    "keywords": "digital agency, software house, tech startup, gen z, innovation, digital solutions",
+    "og_title": "Genzi Meraih Mimpi - Real Digital Solutions",
+    "og_description": "A digital team that starts from everyday frustrations to create impactful solutions."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact",
+    "cta": "Share Your Problem"
+  },
+  "hero": {
+    "badge": "Digital Product Team",
+    "headline1": "Not Just Dreams.",
+    "headline2": "We Build",
+    "headline2b": "Digital Solutions",
+    "headline3": "from Real Problems.",
+    "description": "We start from everyday frustrations, then transform them into digital products that are actually used, tested, and become sustainable businesses. Not just side projects.",
+    "cta_primary": "Share Your Problem",
+    "cta_secondary": "See Our Products"
+  },
+  "philosophy": {
+    "label": "OUR PHILOSOPHY",
+    "headline1": "It All Starts",
+    "headline2": "From Frustration.",
+    "quote1": "Ideas are cheap.",
+    "quote2": "What's valuable is a solution that actually solves problems.",
+    "description": "Many small things cause hassle. Genzi was born to turn all of that into digital solutions that are quick, hassle-free, and impactful."
+  },
+  "howWeWork": {
+    "label": "HOW WE WORK",
+    "headline": "How Do We Turn Ideas Into Products?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Find Problems",
+        "desc": "We're curious about real problems that actually frustrate people. Not problems made up just to look cool."
+      },
+      {
+        "number": "02",
+        "title": "Test the Waters",
+        "desc": "Ask around first, do light research. Don't waste effort building something nobody needs. That would be sad."
+      },
+      {
+        "number": "03",
+        "title": "Build MVP",
+        "desc": "Make an MVP that works first. It's okay if it's rough, as long as the function is there and usable."
+      },
+      {
+        "number": "04",
+        "title": "Test with Friends",
+        "desc": "Ask friends or users to try it. If they like it and come back, we're good. If not, revise again."
+      },
+      {
+        "number": "05",
+        "title": "Go All In!",
+        "desc": "Once validated with good traction, we go full speed. Build complete features, monetize, build the business."
+      }
+    ]
+  },
+  "whatWeBuild": {
+    "label": "WHAT WE BUILD",
+    "headline": "Digital Products That Are Not Just Cool, But Have IMPACT!",
+    "items": [
+      {
+        "title": "Our Own Products",
+        "desc": "Our crazy ideas that we actually turned into real businesses. From zero, we handle everything until it's profitable."
+      },
+      {
+        "title": "Help Friends",
+        "desc": "For those who have ideas but don't know how to build them. Come, we'll help, we'll build together."
+      },
+      {
+        "title": "Experiment Lab",
+        "desc": "Our playground for experiments. Not everything succeeds, but it's fun to learn and sometimes we find gems."
+      }
+    ]
+  },
+  "about": {
+    "headline": "Building the Digital Future Together",
+    "imageTitle": "Drama-Free Collaboration",
+    "imageDesc": "Where crazy ideas meet solid execution.",
+    "card1Title": "Small Dreams Become Reality",
+    "card1Desc": "Genzi was born to turn 'wishful' ideas into real works. We build digital products relevant to today's world.",
+    "card2Title": "Our Principles",
+    "card2Desc": "Dare to collaborate, dare to try, and there must be impact. Those are three things we always carry."
+  },
+  "ideaCta": {
+    "headline": "Have a Problem You Want Solved?",
+    "description": "Let's chat! We love hearing your stories and thinking about how we can help.",
+    "cta": "Contact Us"
+  },
+  "footer": {
+    "tagline": "A digital team that starts from everyday frustrations to create impactful solutions.",
+    "navigation": "Navigation",
+    "social": "Social Media",
+    "copyright": "© 2025 Genzi Meraih Mimpi. All rights reserved."
+  },
+  "aboutPage": {
+    "storyLabel": "Our Story",
+    "storyHeadline1": "Starting from Frustration,",
+    "storyHeadline2": "Moving According to",
+    "storyHeadline3": "Our Hearts.",
+    "readMore": "Read More",
+    "readLess": "Show Less",
+    "pillarsLabel": "OUR DNA",
+    "pillarsHeadline": "Our Pillars",
+    "pillarsSubtitle": "This is what keeps us sane and not just randomly making apps.",
+    "pillars": [
+      {
+        "title": "Problems = Opportunities",
+        "desc": "We love hearing about problems. Not for gossip, but to find how they can become awesome digital solutions."
+      },
+      {
+        "title": "Users Are Besties",
+        "desc": "We don't just make apps randomly, we make them for many people to use. So we must listen to user feedback like listening to our own best friends."
+      },
+      {
+        "title": "Team Up Together",
+        "desc": "No lone heroes here. We believe good team collaboration makes the vibe of building products even more fun."
+      }
+    ],
+    "teamHeadline": "Wanna get to know us?",
+    "teamSubtitle": "These are the people who (finally stopped just talking about it) made Genzi Meraih Mimpi stand and run."
+  },
+  "contact": {
+    "label": "Contact Us",
+    "headline1": "READY TO MAKE",
+    "headline2": "BIG IDEAS?",
+    "description": "Whether it's business collaboration, dream projects, or just coffee and discussion till morning. Don't hesitate, just go for it!",
+    "formTitle": "Start Collaborating",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "youraweome@gmail.com",
+    "messageLabel": "Tell Us Your Idea or Problem",
+    "messagePlaceholder": "So here's the thing, I have this idea/problem ...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Message Sent!",
+    "successDesc": "Thanks for reaching out! We'll get back to you as soon as possible.",
+    "sendAgain": "Send another message",
+    "infoEmail": "Email",
+    "infoInstagram": "Instagram",
+    "infoLinkedIn": "LinkedIn"
+  },
+  "products": {
+    "label": "OUR PRODUCTS",
+    "headline": "What We've Built",
+    "description": "A collection of digital products born from real frustrations. Some are done, some are being built.",
+    "comingSoon": "Coming Soon",
+    "comingSoonDesc": "We're busy coding and designing cool products. Check back later!"
+  },
+  "error": {
+    "title": "Oops, Something Went Wrong!",
+    "backHome": "Back to Home"
+  }
+}

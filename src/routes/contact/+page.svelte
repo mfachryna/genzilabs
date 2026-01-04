@@ -1,8 +1,11 @@
-<script>
+<script lang="ts">
+    import { _ } from 'svelte-i18n';
     import Navbar from '$lib/components/landing/Navbar.svelte';
     import Footer from '$lib/components/landing/Footer.svelte';
     import ContactForm from '$lib/components/contact/ContactForm.svelte';
     import ContactInfo from '$lib/components/contact/ContactInfo.svelte';
+    
+    let { form } = $props();
 </script>
 
 <div class="min-h-screen bg-dark-bg text-white font-sans selection:bg-brand-neon selection:text-black">
@@ -14,12 +17,12 @@
                 <!-- Left Column: Info & Context -->
                 <div class="lg:col-span-5 space-y-12">
                     <div class="space-y-6">
-                        <span class="text-brand-neon font-mono text-sm uppercase tracking-widest mb-2 block animate-fade-in">Hubungi Kami</span>
+                        <span class="text-brand-neon font-mono text-sm uppercase tracking-widest mb-2 block animate-fade-in">{$_('contact.label')}</span>
                         <h1 class="text-5xl md:text-6xl font-bold leading-tight text-white animate-fade-in-up">
-                            SIAP MEWUJUDKAN <span class="text-transparent bg-clip-text bg-linear-to-r from-brand-neon to-brand-purple">IDE BESAR?</span>
+                            {$_('contact.headline1')} <span class="text-transparent bg-clip-text bg-linear-to-r from-brand-neon to-brand-purple">{$_('contact.headline2')}</span>
                         </h1>
                         <p class="text-white/60 text-lg font-light leading-relaxed animate-fade-in-up delay-100">
-                            Mau itu kolaborasi bisnis, proyek impian, ato sekadar ngopi sambil diskusi sampe pagi. Jangan sungkan gaskeun aja!
+                            {$_('contact.description')}
                         </p>
                     </div>
 
@@ -30,7 +33,7 @@
 
                 <!-- Right Column: Form -->
                 <div class="lg:col-span-7 animate-fade-in-up delay-300">
-                    <ContactForm />
+                <ContactForm {form} />
                 </div>
             </div>
         </div>

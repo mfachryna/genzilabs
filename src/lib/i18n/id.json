@@ -1,0 +1,162 @@
+{
+  "seo": {
+    "title": "Genzi Meraih Mimpi - Solusi Digital Nyata",
+    "description": "Tim digital yang berangkat dari keresahan sehari-hari buat bikin solusi yang nendang.",
+    "keywords": "digital agency, software house, tech startup, gen z, inovasi, solusi digital",
+    "og_title": "Genzi Meraih Mimpi - Solusi Digital Nyata",
+    "og_description": "Tim digital yang berangkat dari keresahan sehari-hari buat bikin solusi yang nendang."
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "products": "Produk",
+    "contact": "Kontak",
+    "cta": "Curhat Masalah"
+  },
+  "hero": {
+    "badge": "Digital Product Team",
+    "headline1": "Nggak Cuma Mimpi.",
+    "headline2": "Kami Bangun",
+    "headline2b": "Solusi Digital",
+    "headline3": "dari Masalah Nyata.",
+    "description": "Kita berangkat dari keresahan sehari-hari, terus kita sulap jadi produk digital yang beneran dipake, diuji, dan jadi bisnis yang sustainable. Bukan cuma project iseng.",
+    "cta_primary": "Curhat Masalah Lo",
+    "cta_secondary": "Liat Produk Kita"
+  },
+  "philosophy": {
+    "label": "FILOSOFI KITA",
+    "headline1": "Berawal",
+    "headline2": "Dari Pusing.",
+    "quote1": "Ide doang mah murah.",
+    "quote2": "Yang mahal tu solusi yang beneran nyelesain masalah.",
+    "description": "Banyak hal kecil yang bikin ribet. Genzi lahir buat beresin itu semua jadi solusi digital yang sat-set, anti-ribet, dan impact-nya berasa."
+  },
+  "howWeWork": {
+    "label": "CARA KITA KERJA",
+    "headline": "Gimana Sih Cara Kita Nyulap Ide Jadi Produk?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Cari Gara-Gara",
+        "desc": "Kita kepo sama masalah yang beneran bikin pusing di lapangan. Bukan masalah yang diada-adain biar keliatan keren."
+      },
+      {
+        "number": "02",
+        "title": "Cek Ombak",
+        "desc": "Tanya-tanya dulu, riset tipis-tipis. Jangan sampe cape-cape bikin taunya ga ada yang butuh. Sedih nanti."
+      },
+      {
+        "number": "03",
+        "title": "Bikin Versi Lite",
+        "desc": "Bikin MVP yang penting jalan dulu. Jelek dikit gapapa, yang penting fungsinya dapet dan bisa dipake."
+      },
+      {
+        "number": "04",
+        "title": "Tes ke Sohib",
+        "desc": "Suruh sohib atau user kita buat pake. Kalo mereka suka dan balik lagi, berarti udah oke. Kalo ga, ya revisi lagi."
+      },
+      {
+        "number": "05",
+        "title": "Gaskeun!",
+        "desc": "Kalo udah valid dan traction oke, baru kita gas pol. Bikin fitur lengkap, cari duitnya, bangun bisnisnya."
+      }
+    ]
+  },
+  "whatWeBuild": {
+    "label": "APA YANG KITA BIKIN",
+    "headline": "Produk Digital yang Ngga Cuma Keren, Tapi punya IMPACT!",
+    "items": [
+      {
+        "title": "Produk Sendiri",
+        "desc": "Ide gila kita yang akhirnya kita jadiin bisnis beneran. Dari nol, kita urusin sampe jadi dan cuan."
+      },
+      {
+        "title": "Bantu Temen",
+        "desc": "Buat lo yang punya ide tapi bingung cara bikinnya. Sini kita bantuin, kita bangun bareng-bareng."
+      },
+      {
+        "title": "Laboratorium Iseng",
+        "desc": "Tempat kita main-main eksperimen. Ga semua berhasil sih, tapi seru buat belajar dan kadang nemu berlian."
+      }
+    ]
+  },
+  "about": {
+    "headline": "Bikin Masa Depan Digital Bareng-Bareng",
+    "imageTitle": "Kolaborasi Tanpa Drama",
+    "imageDesc": "Tempat ide gila ketemu eksekusi yang ga asal-asalan.",
+    "card1Title": "Mimpi Kecil Jadi Kenyataan",
+    "card1Desc": "Genzi lahir buat ngubah ide \"halu\" jadi karya nyata. Kita bangun produk digital yang relevan sama jaman now.",
+    "card2Title": "Pegangan Kita",
+    "card2Desc": "Berani kolab, berani coba, dan harus ada impact-nya. Itu tiga hal yang selalu kita bawa kemana-mana."
+  },
+  "ideaCta": {
+    "headline": "Punya Masalah yang Pengen Diselesain?",
+    "description": "Yuk ngobrol bareng! Kita seneng banget denger cerita lo dan mikirin gimana caranya bisa bantu.",
+    "cta": "Hubungi Kami"
+  },
+  "footer": {
+    "tagline": "Tim digital yang berangkat dari keresahan sehari-hari buat bikin solusi yang nendang.",
+    "navigation": "Navigasi",
+    "social": "Sosial Media",
+    "copyright": "© 2025 Genzi Meraih Mimpi. Semua hak dilindungi."
+  },
+  "aboutPage": {
+    "storyLabel": "Alkisah Kita",
+    "storyHeadline1": "Berawal dari Keresahan,",
+    "storyHeadline2": "Bergerak Sesuai",
+    "storyHeadline3": "Kata Hati.",
+    "readMore": "Baca Selengkapnya",
+    "readLess": "Lebih Dikit Aja",
+    "pillarsLabel": "DNA KITA",
+    "pillarsHeadline": "Pilar-Pilar Kami",
+    "pillarsSubtitle": "Ini nih yang bikin kita tetep waras dan ngga asal bikin app doang.",
+    "pillars": [
+      {
+        "title": "Masalah = Peluang",
+        "desc": "Kita suka banget dengerin curhatan masalah. Bukan dipake buat ngegosip, tapi buat cari gimana caranya bisa jadi solusi digital yang ciamik."
+      },
+      {
+        "title": "User Tuh Bestie",
+        "desc": "Kita ngga asal bikin app doang, tapi kita bikin buat dipake ama banyak orang. Jadi wajib hukumnya buat kita dengerin feedback dari user kek dengerin bestie sendiri."
+      },
+      {
+        "title": "Gas Bareng-Bareng",
+        "desc": "Ngga ada jagoan di sini. Kita percaya kolaborasi tim yang baik bakal bikin vibes kita ngebikin produk makin asik."
+      }
+    ],
+    "teamHeadline": "Kenalan dulu ngga si?",
+    "teamSubtitle": "Ini nih manusia-manusia yang (akhirnya ngga wancana doang) ngebikin Genzi Meraih Mimpi berdiri dan jalan."
+  },
+  "contact": {
+    "label": "Hubungi Kami",
+    "headline1": "SIAP MEWUJUDKAN",
+    "headline2": "IDE BESAR?",
+    "description": "Mau itu kolaborasi bisnis, proyek impian, ato sekadar ngopi sambil diskusi sampe pagi. Jangan sungkan gaskeun aja!",
+    "formTitle": "Mulai Kolaborasi",
+    "nameLabel": "Nama",
+    "namePlaceholder": "Nama lo",
+    "emailLabel": "Email",
+    "emailPlaceholder": "guekerenbanget@gmail.com",
+    "messageLabel": "Ceritain Ide ato Masalah Lo",
+    "messagePlaceholder": "Jadi gini guys, gue ada ide/masalah nih ...",
+    "submit": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "success": "Pesan Terkirim!",
+    "successDesc": "Makasih udah nyamperin! Kita bakal bales secepatnya ya.",
+    "sendAgain": "Kirim pesan lagi",
+    "infoEmail": "Email",
+    "infoInstagram": "Instagram",
+    "infoLinkedIn": "LinkedIn"
+  },
+  "products": {
+    "label": "PRODUK KITA",
+    "headline": "Yang Udah Kita Bikin",
+    "description": "Koleksi produk digital yang lahir dari keresahan nyata. Ada yang udah jadi, ada yang lagi dibangun.",
+    "comingSoon": "Segera Hadir",
+    "comingSoonDesc": "Kita lagi sibuk ngoding dan ngedesain produk-produk keren. Balik lagi nanti ya!"
+  },
+  "error": {
+    "title": "Waduh, Ada yang Salah!",
+    "backHome": "Balik ke Beranda"
+  }
+}

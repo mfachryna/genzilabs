@@ -1,7 +1,8 @@
 <script lang="ts">
     import { onMount } from 'svelte';
+    import { _ } from 'svelte-i18n';
     
-    // Team section
+    // Team section - roles could be translated in JSON if needed
     const team = [
         { name: "Ananda Wijaya", role: "Product Lead", image: "/images/team/ananda.webp", color: "bg-neutral-800" },
         { name: "Devina Dwi", role: "UI/UX Designer", image: "/images/team/devina.webp", color: "bg-neutral-700" },
@@ -37,8 +38,8 @@
 <section class="py-32 bg-dark-bg border-b border-white/5" id="team" bind:this={sectionRef}>
     <div class="container">
         <div class="mb-20">
-            <h2 class="text-4xl md:text-5xl font-black mb-4">Kenalan dulu ngga si?</h2>
-            <p class="text-white/50 text-lg font-medium">Ini nih manusia-manusia yang (akhirnya ngga wancana doang) ngebikin Genzi Meraih Mimpi berdiri dan jalan.</p>
+            <h2 class="text-4xl md:text-5xl font-black mb-4">{$_('aboutPage.teamHeadline')}</h2>
+            <p class="text-white/50 text-lg font-medium">{$_('aboutPage.teamSubtitle')}</p>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -51,7 +52,7 @@
                             src={member.image} 
                             alt={member.name}
                             class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500 grayscale group-hover:grayscale-0"
-                            on:error={(e) => (e.currentTarget as HTMLImageElement).style.display = 'none'} 
+                            onerror={(e) => (e.currentTarget as HTMLImageElement).style.display = 'none'} 
                         />
                         
                          <!-- Placeholder Fallback (shown if image fails or loading) -->

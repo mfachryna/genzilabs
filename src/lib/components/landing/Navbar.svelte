@@ -1,15 +1,19 @@
-<script>
+<script lang="ts">
     import Button from '$lib/components/ui/Button.svelte';
     import { page } from '$app/stores';
-    import { onMount } from 'svelte';
+    import { _, locale, locales } from 'svelte-i18n';
 
-    const links = [
-        { href: '/about', label: 'TENTANG KAMI' },
-        { href: '/products', label: 'PRODUK' },
-        { href: '/contact', label: 'KONTAK' },
-    ];
+    let isMobileMenuOpen = $state(false);
+    
+    function toggleLocale() {
+        locale.set($locale === 'id' ? 'en' : 'id');
+    }
 
-    let isMobileMenuOpen = false;
+    const links = $derived([
+        { href: '/about', label: $_('nav.about') },
+        { href: '/products', label: $_('nav.products') },
+        { href: '/contact', label: $_('nav.contact') },
+    ]);
 </script>
 
 <div class="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
@@ -34,16 +38,24 @@
             {/each}
         </div>
 
-        <!-- CTA & Mobile Toggle -->
+        <!-- Language Switcher & CTA & Mobile Toggle -->
         <div class="flex items-center gap-2 pl-8">
+            <!-- Language Toggle -->
+            <button 
+                onclick={toggleLocale}
+                class="px-3 py-2 text-xs font-bold border border-white/20 text-white/70 hover:text-brand-neon hover:border-brand-neon transition-all uppercase tracking-wider"
+            >
+                {$locale === 'id' ? 'EN' : 'ID'}
+            </button>
+            
             <a href="/contact" class="hidden sm:inline-flex bg-brand-neon text-black font-bold text-xs px-6 py-3 hover:bg-white hover:scale-105 transition-all duration-300">
-                Mulai Kolaborasi
+                {$_('nav.cta')}
             </a>
 
             <!-- Mobile Menu Toggle -->
             <button 
                 class="md:hidden p-2 text-white/70 hover:text-white"
-                on:click={() => isMobileMenuOpen = !isMobileMenuOpen}
+                onclick={() => isMobileMenuOpen = !isMobileMenuOpen}
             >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     {#if isMobileMenuOpen}
@@ -65,18 +77,27 @@
                     <a 
                         href={link.href} 
                         class="px-4 py-3 rounded-lg hover:bg-white/5 text-sm font-bold text-white/80 hover:text-brand-neon transition-colors"
-                        on:click={() => isMobileMenuOpen = false}
+                        onclick={() => isMobileMenuOpen = false}
                     >
                         {link.label}
                     </a>
                 {/each}
                 <div class="h-px bg-white/10 my-1"></div>
+                
+                <!-- Mobile Language Toggle -->
+                <button 
+                    onclick={() => { toggleLocale(); isMobileMenuOpen = false; }}
+                    class="px-4 py-3 rounded-lg hover:bg-white/5 text-sm font-bold text-white/80 hover:text-brand-neon transition-colors text-left"
+                >
+                    🌐 {$locale === 'id' ? 'Switch to English' : 'Ganti ke Indonesia'}
+                </button>
+                
                 <a 
                     href="/contact" 
                     class="w-full text-center bg-brand-neon text-black font-bold text-sm px-6 py-3 hover:bg-white transition-all"
-                    on:click={() => isMobileMenuOpen = false}
+                    onclick={() => isMobileMenuOpen = false}
                 >
-                    Mulai Kolaborasi
+                    {$_('nav.cta')}
                 </a>
             </div>
         {/if}

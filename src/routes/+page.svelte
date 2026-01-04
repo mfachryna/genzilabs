@@ -18,7 +18,7 @@
             <Hero />
         </section>
         
-        <Marquee text="CREATIVE • FUTURE • INNOVATION • DIGITAL" theme="neon"/>
+        <Marquee rotate={-2} text="CREATIVE • FUTURE • INNOVATION • DIGITAL" theme="neon"/>
         
         <section id="about">
             <ProblemStatement />
@@ -30,7 +30,7 @@
             <WhatWeBuild /> 
         </section>
         
-        <Marquee text="COLLABORATION • IMPACT • GROWTH • COMMUNITY" theme="light"/>
+        <Marquee rotate={2} text="COLLABORATION • IMPACT • GROWTH • COMMUNITY" theme="light" reverse={true}/>
         
         <About />
         <IdeaCTA />

@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+    import { _ } from 'svelte-i18n';
     import Button from '$lib/components/ui/Button.svelte';
 </script>
 
@@ -7,12 +8,11 @@
         <!-- Left: Big CTA -->
         <div class="space-y-8">
             <h2 class="text-5xl md:text-6xl font-bold leading-tight">
-                Yuk, Ikut <br>
-                <span class="text-brand-purple">Ngebangun</span> <br>
-                Cerita Ini.
+                {$_('ideaCta.headline')}
             </h2>
+            <p class="text-white/60 text-lg max-w-md">{$_('ideaCta.description')}</p>
             <Button href="/contact" variant="primary" size="lg" class="px-8 gap-2">
-                Mulai Kolaborasi 
+                {$_('ideaCta.cta')}
                 <svg class="group-hover:translate-x-1 transition-transform" fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" viewBox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M48 448l416-192L48 64v149.333L346 256 48 298.667z"></path></svg>
             </Button>
         </div>
@@ -20,15 +20,15 @@
         <!-- Right: Links -->
         <div class="grid grid-cols-2 gap-8 md:pl-20 py-4">
             <div class="space-y-4">
-                <h4 class="text-brand-neon font-bold text-sm uppercase tracking-wider">Explore</h4>
+                <h4 class="text-brand-neon font-bold text-sm uppercase tracking-wider">{$_('footer.navigation')}</h4>
                 <ul class="space-y-3 text-white/60">
-                    <li><a href="/about" class="hover:text-white transition-colors">Tentang Kami</a></li>
-                    <li><a href="/products" class="hover:text-white transition-colors">Produk</a></li>
-                    <li><a href="/contact" class="hover:text-white transition-colors">Kontak</a></li>
+                    <li><a href="/about" class="hover:text-white transition-colors">{$_('nav.about')}</a></li>
+                    <li><a href="/products" class="hover:text-white transition-colors">{$_('nav.products')}</a></li>
+                    <li><a href="/contact" class="hover:text-white transition-colors">{$_('nav.contact')}</a></li>
                 </ul>
             </div>
             <div class="space-y-4">
-                 <h4 class="text-brand-neon font-bold text-sm uppercase tracking-wider">Follow</h4>
+                 <h4 class="text-brand-neon font-bold text-sm uppercase tracking-wider">{$_('footer.social')}</h4>
                  <div class="flex gap-4">
                     <!-- Instagram -->
                     <a href="https://www.instagram.com/genzilabs/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all group">
@@ -49,6 +49,6 @@
 
     <!-- Bottom -->
     <div class="container border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-white/30">
-        <p>© {new Date().getFullYear()} Genzi Meraih Mimpi. All rights reserved.</p>
+        <p>{$_('footer.copyright')}</p>
     </div>
 </footer>
