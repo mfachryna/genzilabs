@@ -94,7 +94,7 @@
             </p>
 
             <div bind:this={buttonRef} class="flex flex-wrap gap-5">
-                <Button variant="primary" size="lg" class="text-lg font-bold px-10">Curhat Masalah Lo</Button>
+                <Button href="/contact" variant="primary" size="lg" class="text-lg font-bold px-10">Curhat Masalah Lo</Button>
                 <Button href="/products" variant="outline" size="lg" class="text-lg px-8 border-current hover:bg-white hover:text-black hover:border-transparent">
                     Liat Produk Kita
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 w-5 h-5"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>

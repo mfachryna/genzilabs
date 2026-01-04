@@ -16,7 +16,7 @@
              <div class="space-y-6 max-w-4xl mx-auto">
                 <span class="text-brand-neon font-mono text-sm uppercase tracking-widest mb-2 block animate-fade-in">Singkat Tentang Kita</span>
                 <h1 class="text-5xl md:text-7xl font-black leading-tight text-white animate-fade-in-up">
-                    Bukan Cuma Jadi<br> <span class="text-transparent bg-clip-text bg-linear-to-r from-brand-neon to-brand-purple">Tapi Beneran Bikin Impact.</span>
+                    BUKAN CUMA JADI<br> <span class="text-transparent bg-clip-text bg-linear-to-r from-brand-neon to-brand-purple">TAPI BENERAN BIKIN IMPACT.</span>
                 </h1>
                 <p class="text-white/60 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto animate-fade-in-up delay-100">
                     Kita tu sebenarnya cuma sekumpulan anak muda yang percaya kalo teknologi tu bisa dipake buat bikin impact beneran dan bermanfaat buat orang banyak.

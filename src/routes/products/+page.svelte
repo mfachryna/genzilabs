@@ -65,7 +65,7 @@
                     </h1>
                     
                     <p class="text-white/60 text-lg md:text-xl font-light leading-relaxed max-w-lg mx-auto">
-                        Punten banget nih kakak-kakak semuah, kita lagi nyiapin app pertama kita yang cocok ama kalian ntar. Kindly wait ya kakak-kakak semuah!
+                        Punten banget nih kakak-kakak semuah, kita lagi nyiapin app pertama kita yang cocok buat kalian pake ntar. Kindly wait ya kakak-kakak semuah!
                     </p>
                 </div>
 

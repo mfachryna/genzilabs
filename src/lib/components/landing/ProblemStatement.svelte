@@ -40,7 +40,7 @@
                     <span class="text-brand-neon font-mono text-sm tracking-widest uppercase mb-4 block anim-fade-up">FILOSOFI KITA</span>
                     <h2 class="text-5xl md:text-7xl font-black leading-[0.9] text-white uppercase tracking-tighter anim-fade-up">
                         Berawal <br>
-                        <span class="text-transparent bg-clip-text bg-linear-to-r from-white to-white/50">Dari Mumet.</span>
+                        <span class="text-transparent bg-clip-text bg-linear-to-r from-white to-white/50">Dari Pusing.</span>
                     </h2>
                 </div>
 
