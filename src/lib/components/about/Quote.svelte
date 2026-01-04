@@ -18,9 +18,9 @@
              </div>
 
             <blockquote class="text-3xl md:text-5xl font-black leading-tight mb-8 text-white relative z-10">
-                "The people who are crazy enough to think they can change the world are the ones who do."
+                千里之行，始于足下 <br> A journey of a thousand miles begins with a single step
             </blockquote>
-            <cite class="inline-block bg-white/5 border border-white/10 px-6 py-2 rounded-none text-brand-neon not-italic tracking-widest uppercase text-sm font-bold group-hover:bg-brand-neon group-hover:text-black transition-colors duration-300">- Steve Jobs -</cite>
+            <cite class="inline-block bg-white/5 border border-white/10 px-6 py-2 rounded-none text-brand-neon not-italic tracking-widest uppercase text-sm font-bold group-hover:bg-brand-neon group-hover:text-black transition-colors duration-300">- Lao Tzu -</cite>
         </div>
     </div>
 </section>
