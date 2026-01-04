@@ -1,5 +1,6 @@
 import { browser } from '$app/environment';
-import { init, register, locale } from 'svelte-i18n';
+import { init, register, locale, waitLocale } from 'svelte-i18n';
+import { writable } from 'svelte/store';
 
 const defaultLocale = 'id';
 
@@ -11,6 +12,14 @@ init({
     initialLocale: browser ? window.localStorage.getItem('locale') ?? defaultLocale : defaultLocale,
 });
 
+// Track if locale is loaded
+export const isLocaleLoaded = writable(false);
+
+// Wait for locale to load
+waitLocale().then(() => {
+    isLocaleLoaded.set(true);
+});
+
 // Persist locale to localStorage
 if (browser) {
     locale.subscribe((value) => {
@@ -20,4 +29,4 @@ if (browser) {
     });
 }
 
-export { locale };
+export { locale, waitLocale };
