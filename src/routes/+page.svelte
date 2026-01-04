@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Navbar from '$lib/components/landing/Navbar.svelte';
     import Hero from '$lib/components/landing/Hero.svelte';
     import Marquee from '$lib/components/landing/Marquee.svelte';
@@ -8,6 +8,8 @@
     import HowWeWork from '$lib/components/landing/HowWeWork.svelte';
     import IdeaCTA from '$lib/components/landing/IdeaCTA.svelte';
     import Footer from '$lib/components/landing/Footer.svelte';
+
+    let { form } = $props();
 </script>
 
 <div class="min-h-screen bg-dark-bg text-white selection:bg-brand-neon selection:text-black font-sans">
@@ -33,8 +35,9 @@
         <Marquee rotate={2} text="COLLABORATION • IMPACT • GROWTH • COMMUNITY" theme="light" reverse={true}/>
         
         <About />
-        <IdeaCTA />
+        <IdeaCTA {form} />
     </main>
     
     <Footer />
 </div>
+

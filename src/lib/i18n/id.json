@@ -90,9 +90,18 @@
     "card2Desc": "Berani kolab, berani coba, dan harus ada impact-nya. Itu tiga hal yang selalu kita bawa kemana-mana."
   },
   "ideaCta": {
-    "headline": "Punya Masalah yang Pengen Diselesain?",
-    "description": "Yuk ngobrol bareng! Kita seneng banget denger cerita lo dan mikirin gimana caranya bisa bantu.",
-    "cta": "Hubungi Kami"
+    "headline": "Ide Jangan Cuma Jadi Wacana.",
+    "description": "Dunia butuh solusi lo, bukan cuma angan-angan. Di Genzi, kita bantu rakit ide lo jadi kenyataan.",
+    "cta": "Hubungi Kami",
+    "card1Title": "Ada Ide Liar di Kepala?",
+    "card1Desc": "Atau nemu masalah yang bikin kesel tiap hari? Jangan dipendem sendiri. Ceritain ke kita, siapa tau bisa jadi solusi yang gacor!",
+    "card1Button": "Obrolin Ide",
+    "card2Title": "Pengen Dapet Early Access?",
+    "card2Desc": "Masuk waiting list buat jadi orang pertama yang nyobain produk-produk eksperimental Genzi. Limited stock, gas keun!",
+    "waitlistPlaceholder": "emailkamu@keren.com",
+    "waitlistButton": "Join Waitlist",
+    "waitlistSuccess": "Mantap! Kamu udah masuk waiting list 🎉",
+    "waitlistAgain": "Daftarin email lain"
   },
   "footer": {
     "tagline": "Tim digital yang berangkat dari keresahan sehari-hari buat bikin solusi yang nendang.",

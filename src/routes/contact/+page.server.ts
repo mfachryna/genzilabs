@@ -109,7 +109,7 @@ export const actions: Actions = {
                     <tr>
                         <td style="background-color: #0d0d0d; padding: 24px 40px; border-top: 1px solid #222;">
                             <p style="margin: 0; color: #666; font-size: 12px; text-align: center;">
-                                Pesan ini dikirim dari contact form di <a href="https://genzilabs.vercel.app" style="color: #D9FF00; text-decoration: none;">genzilabs.vercel.app</a>
+                                Pesan ini dikirim dari contact form di <a href="https://genzilabs.com" style="color: #D9FF00; text-decoration: none;">genzilabs.com</a>
                             </p>
                         </td>
                     </tr>

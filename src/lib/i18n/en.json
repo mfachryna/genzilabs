@@ -90,9 +90,18 @@
     "card2Desc": "Dare to collaborate, dare to try, and there must be impact. Those are three things we always carry."
   },
   "ideaCta": {
-    "headline": "Have a Problem You Want Solved?",
-    "description": "Let's chat! We love hearing your stories and thinking about how we can help.",
-    "cta": "Contact Us"
+    "headline": "Don't Let Ideas Stay as Ideas.",
+    "description": "The world needs your solutions, not just wishful thinking. At Genzi, we help you build your ideas into reality.",
+    "cta": "Contact Us",
+    "card1Title": "Got a Wild Idea?",
+    "card1Desc": "Or found a problem that annoys you every day? Don't keep it to yourself. Tell us, who knows it might become an awesome solution!",
+    "card1Button": "Share Your Idea",
+    "card2Title": "Want Early Access?",
+    "card2Desc": "Join the waiting list to be the first to try Genzi's experimental products. Limited spots, jump in!",
+    "waitlistPlaceholder": "youremail@awesome.com",
+    "waitlistButton": "Join Waitlist",
+    "waitlistSuccess": "Awesome! You're on the waitlist 🎉",
+    "waitlistAgain": "Register another email"
   },
   "footer": {
     "tagline": "A digital team that starts from everyday frustrations to create impactful solutions.",
