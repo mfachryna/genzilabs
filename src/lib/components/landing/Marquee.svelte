@@ -12,17 +12,24 @@
     $: direction = reverse ? 'reverse' : 'normal';
 </script>
 
-<div 
-    class="overflow-visible relative z-10"
-    style="transform: rotate({rotate}deg); {rotate !== 0 ? 'margin: 0 -5%;' : ''}"
->
-    <div class="{themeClass} py-3 whitespace-nowrap border-y-2 select-none" style="{rotate !== 0 ? 'width: 110%;' : ''}">
-        <div class="inline-flex animate-marquee" style="animation-duration: {speed}s; animation-direction: {direction}">
-            {#each Array(10) as _, i}
-                <span class="font-bold uppercase tracking-widest text-sm mx-4 flex items-center gap-4">
-                    {@html text} <span class="w-1.5 h-1.5 bg-current rounded-full opacity-50"></span>
-                </span>
-            {/each}
+<div class="overflow-x-clip">
+    <div 
+        class="overflow-visible relative z-10"
+        style="transform: rotate({rotate}deg); {rotate !== 0 ? 'margin: 0 -3%; width: 106%;' : ''}"
+    >
+        <div class="{themeClass} py-3 whitespace-nowrap border-y-2 select-none overflow-hidden">
+            <div class="inline-flex animate-marquee" style="animation-duration: {speed}s; animation-direction: {direction}">
+                {#each Array(10) as _, i}
+                    <span class="font-bold uppercase tracking-widest text-sm mx-4 flex items-center gap-4 shrink-0">
+                        {@html text} <span class="w-1.5 h-1.5 bg-current rounded-full opacity-50"></span>
+                    </span>
+                {/each}
+                {#each Array(10) as _, i}
+                    <span class="font-bold uppercase tracking-widest text-sm mx-4 flex items-center gap-4 shrink-0">
+                        {@html text} <span class="w-1.5 h-1.5 bg-current rounded-full opacity-50"></span>
+                    </span>
+                {/each}
+            </div>
         </div>
     </div>
 </div>
@@ -36,3 +43,4 @@
         100% { transform: translateX(-50%); }
     }
 </style>
+
