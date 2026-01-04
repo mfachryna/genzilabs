@@ -1,131 +1,131 @@
 {
   "seo": {
     "title": "Genzi Meraih Mimpi - Real Digital Solutions",
-    "description": "A digital team that starts from everyday frustrations to create impactful solutions.",
+    "description": "A digital squad that turns everyday frustrations into solutions that actually slap.",
     "keywords": "digital agency, software house, tech startup, gen z, innovation, digital solutions",
     "og_title": "Genzi Meraih Mimpi - Real Digital Solutions",
-    "og_description": "A digital team that starts from everyday frustrations to create impactful solutions."
+    "og_description": "A digital squad that turns everyday frustrations into solutions that actually slap."
   },
   "nav": {
     "home": "Home",
     "about": "About",
     "products": "Products",
     "contact": "Contact",
-    "cta": "Share Your Problem"
+    "cta": "Vent to Us"
   },
   "hero": {
     "badge": "Digital Product Team",
-    "headline1": "Not Just Dreams.",
+    "headline1": "Not Just Dreaming.",
     "headline2": "We Build",
     "headline2b": "Digital Solutions",
     "headline3": "from Real Problems.",
-    "description": "We start from everyday frustrations, then transform them into digital products that are actually used, tested, and become sustainable businesses. Not just side projects.",
-    "cta_primary": "Share Your Problem",
-    "cta_secondary": "See Our Products"
+    "description": "We start from everyday frustrations, then turn them into digital products people actually use, test, and become sustainable businesses. Not just random side projects.",
+    "cta_primary": "Vent Your Problem",
+    "cta_secondary": "Check Our Products"
   },
   "philosophy": {
     "label": "OUR PHILOSOPHY",
     "headline1": "It All Starts",
-    "headline2": "From Frustration.",
-    "quote1": "Ideas are cheap.",
-    "quote2": "What's valuable is a solution that actually solves problems.",
-    "description": "Many small things cause hassle. Genzi was born to turn all of that into digital solutions that are quick, hassle-free, and impactful."
+    "headline2": "From Headaches.",
+    "quote1": "Ideas are cheap, bestie.",
+    "quote2": "What's pricey is a solution that actually solves problems.",
+    "description": "So many little things cause headaches. Genzi was born to turn all that mess into digital solutions that are quick, anti-drama, and hit different."
   },
   "howWeWork": {
     "label": "HOW WE WORK",
-    "headline": "How Do We Turn Ideas Into Products?",
+    "headline": "How Do We Turn Ideas Into Products Tho?",
     "steps": [
       {
         "number": "01",
-        "title": "Find Problems",
-        "desc": "We're curious about real problems that actually frustrate people. Not problems made up just to look cool."
+        "title": "Hunt for Drama",
+        "desc": "We're nosy about real problems that actually stress people out. Not made-up ones just to look cool."
       },
       {
         "number": "02",
         "title": "Test the Waters",
-        "desc": "Ask around first, do light research. Don't waste effort building something nobody needs. That would be sad."
+        "desc": "Ask around, do light research. Don't wanna build something nobody needs. That's just sad, bestie."
       },
       {
         "number": "03",
-        "title": "Build MVP",
-        "desc": "Make an MVP that works first. It's okay if it's rough, as long as the function is there and usable."
+        "title": "Build the Lite Version",
+        "desc": "Make an MVP that works first. Rough around the edges? It's fine. As long as it does the job and people can use it."
       },
       {
         "number": "04",
-        "title": "Test with Friends",
-        "desc": "Ask friends or users to try it. If they like it and come back, we're good. If not, revise again."
+        "title": "Test with the Squad",
+        "desc": "Get the squad or users to try it. If they like it and come back, we're golden. If not, back to the drawing board."
       },
       {
         "number": "05",
-        "title": "Go All In!",
-        "desc": "Once validated with good traction, we go full speed. Build complete features, monetize, build the business."
+        "title": "Full Send!",
+        "desc": "Once validated and traction is fire, we go full throttle. Build complete features, chase the bag, build the business."
       }
     ]
   },
   "whatWeBuild": {
     "label": "WHAT WE BUILD",
-    "headline": "Digital Products That Are Not Just Cool, But Have IMPACT!",
+    "headline": "Digital Products That Aren't Just Cool, But Have IMPACT!",
     "items": [
       {
         "title": "Our Own Products",
-        "desc": "Our crazy ideas that we actually turned into real businesses. From zero, we handle everything until it's profitable."
+        "desc": "Our unhinged ideas that we actually turned into real businesses. From zero, we handle everything till it's profitable."
       },
       {
-        "title": "Help Friends",
-        "desc": "For those who have ideas but don't know how to build them. Come, we'll help, we'll build together."
+        "title": "Help the Homies",
+        "desc": "For y'all who have ideas but don't know how to build them. Come, we'll help, we'll build together."
       },
       {
-        "title": "Experiment Lab",
-        "desc": "Our playground for experiments. Not everything succeeds, but it's fun to learn and sometimes we find gems."
+        "title": "The Experiment Lab",
+        "desc": "Our playground for experiments. Not everything hits, but it's fun to learn and sometimes we find hidden gems."
       }
     ]
   },
   "about": {
     "headline": "Building the Digital Future Together",
-    "imageTitle": "Drama-Free Collaboration",
-    "imageDesc": "Where crazy ideas meet solid execution.",
+    "imageTitle": "Drama-Free Collab",
+    "imageDesc": "Where unhinged ideas meet execution that's not half-baked.",
     "card1Title": "Small Dreams Become Reality",
-    "card1Desc": "Genzi was born to turn 'wishful' ideas into real works. We build digital products relevant to today's world.",
-    "card2Title": "Our Principles",
-    "card2Desc": "Dare to collaborate, dare to try, and there must be impact. Those are three things we always carry."
+    "card1Desc": "Genzi was born to turn 'delusional' ideas into real works. We build digital products relevant to today's world.",
+    "card2Title": "Our Guiding Principles",
+    "card2Desc": "Dare to collab, dare to try, and it must have impact. Those three things? We carry them everywhere."
   },
   "ideaCta": {
-    "headline": "Don't Let Ideas Stay as Ideas.",
-    "description": "The world needs your solutions, not just wishful thinking. At Genzi, we help you build your ideas into reality.",
-    "cta": "Contact Us",
-    "card1Title": "Got a Wild Idea?",
-    "card1Desc": "Or found a problem that annoys you every day? Don't keep it to yourself. Tell us, who knows it might become an awesome solution!",
-    "card1Button": "Share Your Idea",
+    "headline": "Don't Let Ideas Stay as Just Talk.",
+    "description": "The world needs your solutions, not just wishful thinking. At Genzi, we help build your ideas into reality.",
+    "cta": "Hit Us Up",
+    "card1Title": "Got a Wild Idea in Your Head?",
+    "card1Desc": "Or found a problem that annoys you every day? Don't keep it to yourself. Tell us, who knows it might become a fire solution!",
+    "card1Button": "Let's Chat About It",
     "card2Title": "Want Early Access?",
-    "card2Desc": "Join the waiting list to be the first to try Genzi's experimental products. Limited spots, jump in!",
-    "waitlistPlaceholder": "yourawesome@emai.com",
+    "card2Desc": "Join the waiting list to be the first to try Genzi's experimental products. Limited stock, let's gooo!",
+    "waitlistPlaceholder": "yourareeawesome@email.com",
     "waitlistButton": "Join Waitlist",
-    "waitlistSuccess": "Awesome! You're on the waitlist 🎉",
+    "waitlistSuccess": "Slay! You're in the waiting list 🎉",
     "waitlistAgain": "Register another email"
   },
   "footer": {
-    "tagline": "A digital team that starts from everyday frustrations to create impactful solutions.",
+    "tagline": "A digital squad that turns everyday frustrations into solutions that actually slap.",
     "navigation": "Navigation",
     "social": "Social Media",
     "copyright": "© 2025 Genzi Meraih Mimpi. All rights reserved."
   },
   "aboutPage": {
-    "heroLabel": "About Us in Brief",
+    "heroLabel": "Quick Intro About Us",
     "heroHeadline1": "NOT JUST DOING",
     "heroHeadline2": "BUT ACTUALLY MAKING IMPACT.",
-    "heroDesc": "We're actually just a group of young people who believe that technology can be used to make real impact and benefit many people.",
+    "heroDesc": "Real talk – we're actually just a bunch of young people who believe technology can be used to make real impact and benefit lots of people.",
     "storyLabel": "Our Story",
     "storyHeadline1": "Starting from Frustration,",
     "storyHeadline2": "Moving According to",
     "storyHeadline3": "Our Hearts.",
     "storyYear": "2025",
-    "storyYearLabel": "Team Was Formed",
+    "storyYearLabel": "The Team Was Formed",
     "storyDecoration": "Not Empty Space for Ads. This is Just Decoration Because We Didn't Know What to Put Here.",
-    "storyPara1": "So here's the story. Back in college, we were always brainstorming ideas to start our own business to earn extra pocket money, while also honing our skills and gaining life experience. It started with gadget repair services, then we took on web and design projects offered by others. Typical IT student side jobs. The result? Enough for coffee, hanging out, and we got that feeling of \"wow, I can earn my own money!\"",
-    "storyPara2": "When we were close to graduation, we got attracted to the dream of working at startups. The benefits were amazing - great salaries, cool culture, stock options, etc. Some of us tried applying, but it ended up as just nice tries and maybe not our luck yet. That's when the idea came up \"What if we build our own startup?\" At first we were super excited, with many ideas like \"our product must do this and that, if it works out it'll definitely explode\". But reality hit us hard and we realized our business experience was basically zero. So that dream was put on hold, we chose to work according to our passions to gather experience and stability.",
-    "storyPara3": "Time passed, and \"Adulting\" really started to hit. The beautiful hopes from our youth started facing reality. Many things made us think again - fear of running out of money before payday, fear of not being able to buy a house because property prices are insane, fear of not having savings for marriage (optional honestly, traveling the world sounds better?) or helping parents, fear of sudden layoffs like the waves happening recently. Especially in this Gen Z adult era, we're haunted by many things - anxiety about job security, side hustles that never profit, inflation that keeps raising even coffee prices, burnout from working 24/7. The country's situation also adds mental burden - confusing government policies, piling new taxes, economic ups and downs making the future hard to predict.",
-    "storyPara4": "But precisely because of those thoughts, the old dream that had sunk before surfaced again. Now we have more mature work experience, sharpened skills, plus some other supporting factors that seemed to say \"isn't it time to test our knowledge?\". Finally, Genzi Meraih Mimpi was born!",
-    "storyPara5": "TBH we want to increase income and live more comfortably. BUT more than that, there's this feeling of \"what can we do for society?\" in the midst of our country's current condition. We're restless seeing brilliant ideas from Indonesian youth just passing by in hangout conversations. We believe Gen Z's potential is huge if channeled properly, it can explode!",
+    "storyPara1": "So here's the tea, everyone. Back in college, we were always brainstorming ideas to start our own business to earn extra pocket money, while also sharpening our skills and gaining life experience. It started with gadget repair services, then we took on web and design projects offered by others. Typical IT student side jobs lah. The result? Enough for coffee, hanging out, and we got that feeling of 'wow, I can earn my own money!'",
+    "storyPara2": "When we were close to graduating, we got attracted to the dream of working at startups. Y'know the benefits are insane – great salaries, cool culture, stock options, etc. Some of us tried applying, but it ended up as just nice try and maybe not our luck yet. That's when the idea came up 'What if we build our own startup?' At first we were super hyped, with many ideas like 'our product must do this and that, if it works out it'll definitely blow up'. But reality slapped us hard and we realized our business experience was basically zero. So that dream was put on hold, we chose to work according to our passions to gather experience and stability.",
+    "storyPara3": "Time passed, and 'Adulting' really started hitting different. The beautiful hopes from our youth started facing reality. Many things made us think again – fear of running out of money before payday, fear of not being able to buy a house because property prices are insane, fear of not having savings for marriage (honestly optional tho, traveling the world sounds better right?) or helping parents, fear of sudden layoffs like the waves happening recently. Especially in this Gen Z adult era, we're haunted by so many things – anxiety about job security, side hustles that never profit, inflation that keeps raising even coffee prices, burnout from working 24/7. The country's situation also adds mental burden – confusing government policies, piling new taxes, economic ups and downs making the future hard to predict.",
+    "storyPara4": "But precisely because of those thoughts, the old dream that had sunk before resurfaced. Now we have more mature work experience, sharpened skills, plus some other supporting factors that seemed to say 'isn't it time to test our knowledge?' Finally, Genzi Meraih Mimpi was born!",
+    "storyPara5": "TBH we want to increase income and live more comfortably. BUT more than that, there's this feeling of 'what can we do for society?' in the midst of our country's current condition. We're restless seeing brilliant ideas from Indonesian youth just passing by in hangout conversations. We believe Gen Z's potential is massive if channeled properly, it can blow up!",
     "readMore": "Read More",
     "readLess": "Show Less",
     "quote": "千里之行，始于足下 <br> A journey of a thousand miles begins with a single step",
@@ -136,44 +136,44 @@
     "pillars": [
       {
         "title": "Problems = Opportunities",
-        "desc": "We love hearing about problems. Not for gossip, but to find how they can become awesome digital solutions."
+        "desc": "We love hearing problem rants. Not for gossiping, but to find how they can become fire digital solutions."
       },
       {
         "title": "Users Are Besties",
-        "desc": "We don't just make apps randomly, we make them for many people to use. So we must listen to user feedback like listening to our own best friends."
+        "desc": "We don't just randomly make apps, we make them for many people to use. So listening to user feedback is mandatory – like listening to your own bestie."
       },
       {
-        "title": "Team Up Together",
-        "desc": "No lone heroes here. We believe good team collaboration makes the vibe of building products even more fun."
+        "title": "Go Together",
+        "desc": "No lone heroes here. We believe good team collaboration makes the vibes of building products even more fun."
       }
     ],
-    "teamHeadline": "Wanna get to know us?",
-    "teamSubtitle": "These are the people who (finally stopped just talking about it) made Genzi Meraih Mimpi stand and run."
+    "teamHeadline": "Wanna get to know us first?",
+    "teamSubtitle": "These are the humans who (finally stopped being all talk) made Genzi Meraih Mimpi stand and run."
   },
   "productsPage": {
     "label": "OUR PRODUCTS",
     "headline": "Digital Works with Real Impact",
     "viewProduct": "View Product",
-    "comingSoonTitle": "Cooking Up Our App!",
-    "comingSoonDesc": "Sorry folks, we're still preparing our first app that'll be perfect for you to use. Please kindly wait!",
+    "comingSoonTitle": "Still Cooking the App!",
+    "comingSoonDesc": "So sorry everyone, we're still preparing our first app that'll be perfect for y'all to use later. Kindly wait, yeah!",
     "backHome": "Back to Home"
   },
   "contact": {
     "label": "Contact Us",
     "headline1": "READY TO MAKE",
     "headline2": "BIG IDEAS?",
-    "description": "Whether it's business collaboration, dream projects, or just coffee and discussion till morning. Don't hesitate, just go for it!",
+    "description": "Whether it's business collab, dream projects, or just coffee and discussion till morning. Don't be shy, just go for it!",
     "formTitle": "Start Collaborating",
     "nameLabel": "Name",
     "namePlaceholder": "Your name",
     "emailLabel": "Email",
-    "emailPlaceholder": "yourawesome@gmail.com",
+    "emailPlaceholder": "imsupercool@gmail.com",
     "messageLabel": "Tell Us Your Idea or Problem",
-    "messagePlaceholder": "So here's the thing, I have this idea/problem ...",
+    "messagePlaceholder": "So here's the thing guys, I have this idea/problem ...",
     "submit": "Send Message",
     "sending": "Sending...",
     "success": "Message Sent!",
-    "successDesc": "Thanks for reaching out! We'll get back to you as soon as possible.",
+    "successDesc": "Thanks for stopping by! We'll get back to you ASAP.",
     "sendAgain": "Send another message",
     "infoEmail": "Email",
     "infoInstagram": "Instagram",
@@ -187,7 +187,7 @@
     "comingSoonDesc": "We're busy coding and designing cool products. Check back later!"
   },
   "error": {
-    "title": "Oops, Something Went Wrong!",
+    "title": "Yikes, Something Went Wrong!",
     "backHome": "Back to Home"
   }
 }
