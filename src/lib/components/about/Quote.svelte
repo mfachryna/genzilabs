@@ -1,3 +1,7 @@
+<script lang="ts">
+    import { _ } from 'svelte-i18n';
+</script>
+
 <section class="py-32 flex items-center justify-center bg-transparent relative">
     <div class="container text-center relative z-10">
         <div class="bg-dark-card border-[3px] border-white/10 p-12 md:p-16 relative hover:border-brand-neon hover:shadow-[12px_12px_0px_#9D00FF] transition-all duration-300 group">
@@ -18,9 +22,10 @@
              </div>
 
             <blockquote class="text-3xl md:text-5xl font-black leading-tight mb-8 text-white relative z-10">
-                千里之行，始于足下 <br> A journey of a thousand miles begins with a single step
+                {$_('aboutPage.quote')}
             </blockquote>
-            <cite class="inline-block bg-white/5 border border-white/10 px-6 py-2 rounded-none text-brand-neon not-italic tracking-widest uppercase text-sm font-bold group-hover:bg-brand-neon group-hover:text-black transition-colors duration-300">- Lao Tzu -</cite>
+            <cite class="inline-block bg-white/5 border border-white/10 px-6 py-2 rounded-none text-brand-neon not-italic tracking-widest uppercase text-sm font-bold group-hover:bg-brand-neon group-hover:text-black transition-colors duration-300">{$_('aboutPage.quoteAuthor')}</cite>
         </div>
     </div>
 </section>
+

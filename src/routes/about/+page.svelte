@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+    import { _ } from 'svelte-i18n';
     import Navbar from '$lib/components/landing/Navbar.svelte';
     import Footer from '$lib/components/landing/Footer.svelte';
     import Team from '$lib/components/about/Team.svelte';
@@ -14,12 +15,12 @@
         <!-- Hero Section -->
         <section class="py-20 md:py-32 container text-center relative z-10">
              <div class="space-y-6 max-w-4xl mx-auto">
-                <span class="text-brand-neon font-mono text-sm uppercase tracking-widest mb-2 block animate-fade-in">Singkat Tentang Kita</span>
+                <span class="text-brand-neon font-mono text-sm uppercase tracking-widest mb-2 block animate-fade-in">{$_('aboutPage.heroLabel')}</span>
                 <h1 class="text-5xl md:text-7xl font-black leading-tight text-white animate-fade-in-up">
-                    BUKAN CUMA JADI<br> <span class="text-transparent bg-clip-text bg-linear-to-r from-brand-neon to-brand-purple">TAPI BENERAN BIKIN IMPACT.</span>
+                    {$_('aboutPage.heroHeadline1')}<br> <span class="text-transparent bg-clip-text bg-linear-to-r from-brand-neon to-brand-purple">{$_('aboutPage.heroHeadline2')}</span>
                 </h1>
                 <p class="text-white/60 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto animate-fade-in-up delay-100">
-                    Kita tu sebenarnya cuma sekumpulan anak muda yang percaya kalo teknologi tu bisa dipake buat bikin impact beneran dan bermanfaat buat orang banyak.
+                    {$_('aboutPage.heroDesc')}
                 </p>
             </div>
         </section>

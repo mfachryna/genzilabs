@@ -39,12 +39,12 @@
                 <div class="absolute inset-0 bg-grid-white/[0.05] mask-[linear-gradient(to_bottom,transparent,black)]"></div>
                 <div class="h-full flex flex-col justify-between relative z-10">
                     <div>
-                        <div class="text-6xl font-black text-white mb-2">2025</div>
-                        <div class="text-white/60 font-mono text-sm uppercase tracking-widest">Team Ini Kebentuk</div>
+                        <div class="text-6xl font-black text-white mb-2">{$_('aboutPage.storyYear')}</div>
+                        <div class="text-white/60 font-mono text-sm uppercase tracking-widest">{$_('aboutPage.storyYearLabel')}</div>
                     </div>
                     
                     <div class="text-white/40 text-xs font-mono border-t border-white/10 pt-4 mt-auto text-center">
-                        Bukan Space Kosong Buat Iklan. Space Ini Dekorasi Aja Soalnya Bingung Mau Diisi Apa.
+                        {$_('aboutPage.storyDecoration')}
                     </div>
                 </div>
             </div>
@@ -62,22 +62,22 @@
             
             <div class="space-y-6 text-lg text-white/70 font-medium leading-relaxed">
                 <p>
-                    Jadi alkisahnya tuh gini kakak-kakak semuah. Dulu pas jaman kuliah, kita tu sering banget ngide bareng buat bikin usaha sendiri biar bisa nambah duit jajan, sekalian ngasah skill plus nambah pengalaman hidup. Awalnya tuh yang jalan service gadget, terus nyambi ambil proyek web sama design yang ditawarin orang. Bisa dibilang job mahasiswa IT pada umumnya lah ya. Hasilnya? Lumayan lah bakal ngopi, nongkrong, ama kita dapet rasa kek "wah, gue bisa hasilkan duit sendiri!"
+                    {$_('aboutPage.storyPara1')}
                 </p>
 
                 {#if isExpanded}
                     <div transition:slide={{ duration: 300 }}>
                         <p class="mb-6">
-                            Nah pas uda mau deket ama lulus, kita sempet kepincut buat mimpi kerja di startup gitu. Tau sendiri benefitnya kan wah banget tuh kek dari gaji yang oke banget, culture keren, stock option, dll. Beberapa uda coba buat apply, tapi berujung nice try aja dan kayaknya belum rejeki juga. Dari situ muncul tuh ide "Gimana kalo kita bikin startup sendiri aja?" Awalnya excited banget, banyak ide kurang lebih kek gini "produk kita harus bisa ini itu, kalo jadi yakin deh bisa meledak". Tapi kita ketampar realita ujungnya dan sadar diri, pengalaman bisnis kita waktu itu masih ngga ada sama sekali. Akhirnya mimpi itu sempet tenggelam dulu, kita milih kerja sesuai passion biar bisa ngumpulin pengalaman dan stabilitas.
+                            {$_('aboutPage.storyPara2')}
                         </p>
                         <p class="mb-6">
-                            Waktu berlalu, "Dewasa Ini" mulai kerasa banget nih. Harapan-harapan dulu waktu muda yang keliatannya indah mulai mulai realitanya kek gimana. banyak hal yang bikin kita mikir lagi kek takut banget duit bulanan abis sebelum gajian, takut nggak bisa beli rumah karena harga properti gila-gilaan, takut nggak punya tabungan buat nikah(optional si ini sebenernya, mending keliling dunia ngga si?) atau bantu orang tua, takut kena PHK tiba-tiba kaya gelombang yang sering kejadian belakangan ini. Apalagi di era Gen Z dewasa ini, kita tuh dihantui ama banyak hal yak, kek anxiety soal job security, side hustle yang nggak kunjung cuan, inflasi yang bikin harga kopi aja naik terus, sampe burnout karena kerja 24/7. Kondisi negara juga nambah beban pikiran ntah kebijakan pemerintah yang kadang bikin bingung, pajak baru yang numpuk, sampe isu ekonomi yang naik-turun bikin susah prediksi masa depan.
+                            {$_('aboutPage.storyPara3')}
                         </p>
                         <p class="mb-6">
-                            Tapi justru berkat adanya pikiran itu, ide lama yang pernah tenggelam sebelumnya muncul lagi. Sekarang kita udah punya pengalaman kerja yang lebih mateng, skill yang terasah, plus beberapa faktor pendukung lain yang pas waktunya kek ngasi tau "saatnya test ilmu kita ngga si?". Akhirnya, Genzi Meraih Mimpi pun lahir!
+                            {$_('aboutPage.storyPara4')}
                         </p>
                         <p>
-                            TBH kita pengen nambah pendapatan dan hidup lebih nyaman. TAPI lebih dari itu, ada rasa "apa sih yang bisa kita lakuin buat masyarakat?" ditengah kondisi negara kita yang kek gini. Kita resah waktu liat ide keren anak muda di Indonesia ini cuma lewat obrolan ditongkrongan doang. Kita yakin, potensi Gen Z itu gede banget kalo disalurin bener, bisa meledak!
+                            {$_('aboutPage.storyPara5')}
                         </p>
                     </div>
                 {/if}

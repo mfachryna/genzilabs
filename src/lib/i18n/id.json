@@ -110,12 +110,26 @@
     "copyright": "© 2025 Genzi Meraih Mimpi. Semua hak dilindungi."
   },
   "aboutPage": {
+    "heroLabel": "Singkat Tentang Kita",
+    "heroHeadline1": "BUKAN CUMA JADI",
+    "heroHeadline2": "TAPI BENERAN BIKIN IMPACT.",
+    "heroDesc": "Kita tu sebenarnya cuma sekumpulan anak muda yang percaya kalo teknologi tu bisa dipake buat bikin impact beneran dan bermanfaat buat orang banyak.",
     "storyLabel": "Alkisah Kita",
     "storyHeadline1": "Berawal dari Keresahan,",
     "storyHeadline2": "Bergerak Sesuai",
     "storyHeadline3": "Kata Hati.",
+    "storyYear": "2025",
+    "storyYearLabel": "Team Ini Kebentuk",
+    "storyDecoration": "Bukan Space Kosong Buat Iklan. Space Ini Dekorasi Aja Soalnya Bingung Mau Diisi Apa.",
+    "storyPara1": "Jadi alkisahnya tuh gini kakak-kakak semuah. Dulu pas jaman kuliah, kita tu sering banget ngide bareng buat bikin usaha sendiri biar bisa nambah duit jajan, sekalian ngasah skill plus nambah pengalaman hidup. Awalnya tuh yang jalan service gadget, terus nyambi ambil proyek web sama design yang ditawarin orang. Bisa dibilang job mahasiswa IT pada umumnya lah ya. Hasilnya? Lumayan lah bakal ngopi, nongkrong, ama kita dapet rasa kek \"wah, gue bisa hasilkan duit sendiri!\"",
+    "storyPara2": "Nah pas uda mau deket ama lulus, kita sempet kepincut buat mimpi kerja di startup gitu. Tau sendiri benefitnya kan wah banget tuh kek dari gaji yang oke banget, culture keren, stock option, dll. Beberapa uda coba buat apply, tapi berujung nice try aja dan kayaknya belum rejeki juga. Dari situ muncul tuh ide \"Gimana kalo kita bikin startup sendiri aja?\" Awalnya excited banget, banyak ide kurang lebih kek gini \"produk kita harus bisa ini itu, kalo jadi yakin deh bisa meledak\". Tapi kita ketampar realita ujungnya dan sadar diri, pengalaman bisnis kita waktu itu masih ngga ada sama sekali. Akhirnya mimpi itu sempet tenggelam dulu, kita milih kerja sesuai passion biar bisa ngumpulin pengalaman dan stabilitas.",
+    "storyPara3": "Waktu berlalu, \"Dewasa Ini\" mulai kerasa banget nih. Harapan-harapan dulu waktu muda yang keliatannya indah mulai mulai realitanya kek gimana. banyak hal yang bikin kita mikir lagi kek takut banget duit bulanan abis sebelum gajian, takut nggak bisa beli rumah karena harga properti gila-gilaan, takut nggak punya tabungan buat nikah(optional si ini sebenernya, mending keliling dunia ngga si?) atau bantu orang tua, takut kena PHK tiba-tiba kaya gelombang yang sering kejadian belakangan ini. Apalagi di era Gen Z dewasa ini, kita tuh dihantui ama banyak hal yak, kek anxiety soal job security, side hustle yang nggak kunjung cuan, inflasi yang bikin harga kopi aja naik terus, sampe burnout karena kerja 24/7. Kondisi negara juga nambah beban pikiran ntah kebijakan pemerintah yang kadang bikin bingung, pajak baru yang numpuk, sampe isu ekonomi yang naik-turun bikin susah prediksi masa depan.",
+    "storyPara4": "Tapi justru berkat adanya pikiran itu, ide lama yang pernah tenggelam sebelumnya muncul lagi. Sekarang kita udah punya pengalaman kerja yang lebih mateng, skill yang terasah, plus beberapa faktor pendukung lain yang pas waktunya kek ngasi tau \"saatnya test ilmu kita ngga si?\". Akhirnya, Genzi Meraih Mimpi pun lahir!",
+    "storyPara5": "TBH kita pengen nambah pendapatan dan hidup lebih nyaman. TAPI lebih dari itu, ada rasa \"apa sih yang bisa kita lakuin buat masyarakat?\" ditengah kondisi negara kita yang kek gini. Kita resah waktu liat ide keren anak muda di Indonesia ini cuma lewat obrolan ditongkrongan doang. Kita yakin, potensi Gen Z itu gede banget kalo disalurin bener, bisa meledak!",
     "readMore": "Baca Selengkapnya",
     "readLess": "Lebih Dikit Aja",
+    "quote": "千里之行，始于足下 <br> A journey of a thousand miles begins with a single step",
+    "quoteAuthor": "- Lao Tzu -",
     "pillarsLabel": "DNA KITA",
     "pillarsHeadline": "Pilar-Pilar Kami",
     "pillarsSubtitle": "Ini nih yang bikin kita tetep waras dan ngga asal bikin app doang.",
@@ -135,6 +149,14 @@
     ],
     "teamHeadline": "Kenalan dulu ngga si?",
     "teamSubtitle": "Ini nih manusia-manusia yang (akhirnya ngga wancana doang) ngebikin Genzi Meraih Mimpi berdiri dan jalan."
+  },
+  "productsPage": {
+    "label": "PRODUK KAMI",
+    "headline": "Karya Digital Berdampak Nyata",
+    "viewProduct": "Lihat Produk",
+    "comingSoonTitle": "Lagi Masak App Nih!",
+    "comingSoonDesc": "Punten banget nih kakak-kakak semuah, kita lagi nyiapin app pertama kita yang cocok buat kalian pake ntar. Kindly wait ya kakak-kakak semuah!",
+    "backHome": "Balik ke Home"
   },
   "contact": {
     "label": "Hubungi Kami",

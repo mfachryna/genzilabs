@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { _ } from 'svelte-i18n';
     import Navbar from '$lib/components/landing/Navbar.svelte';
     import Footer from '$lib/components/landing/Footer.svelte';
     import Button from '$lib/components/ui/Button.svelte';
@@ -24,8 +25,8 @@
     <main class="grow pt-32 pb-20 container mx-auto px-4 flex flex-col">
         {#if products.length > 0}
             <div class="text-center mb-16 space-y-4">
-                <span class="text-brand-neon font-mono text-sm uppercase tracking-widest font-bold">PRODUK KAMI</span>
-                <h1 class="text-4xl md:text-5xl font-bold tracking-tight">Karya Digital <br> Berdampak Nyata</h1>
+                <span class="text-brand-neon font-mono text-sm uppercase tracking-widest font-bold">{$_('productsPage.label')}</span>
+                <h1 class="text-4xl md:text-5xl font-bold tracking-tight">{$_('productsPage.headline')}</h1>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -40,7 +41,7 @@
                         </div>
                         <div class="mt-auto">
                             <Button href={product.link} class="w-full">
-                                Lihat Produk
+                                {$_('productsPage.viewProduct')}
                             </Button>
                         </div>
                     </div>
@@ -61,17 +62,17 @@
                 
                 <div class="space-y-4 max-w-2xl mx-auto">
                     <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight">
-                        Lagi <span class="text-brand-neon inline-block hover:scale-105 transition-transform cursor-default">Masak</span> App Nih!
+                        {$_('productsPage.comingSoonTitle')}
                     </h1>
                     
                     <p class="text-white/60 text-lg md:text-xl font-light leading-relaxed max-w-lg mx-auto">
-                        Punten banget nih kakak-kakak semuah, kita lagi nyiapin app pertama kita yang cocok buat kalian pake ntar. Kindly wait ya kakak-kakak semuah!
+                        {$_('productsPage.comingSoonDesc')}
                     </p>
                 </div>
 
                 <div class="pt-8">
                     <Button href="/" variant="primary" class="min-w-50">
-                        Balik ke Home
+                        {$_('productsPage.backHome')}
                     </Button>
                 </div>
             </div>
