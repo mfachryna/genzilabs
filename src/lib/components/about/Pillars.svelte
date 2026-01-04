@@ -1,9 +1,5 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-    import gsap from 'gsap';
-    import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-
-    gsap.registerPlugin(ScrollTrigger);
 
     const pillars = [
         {
@@ -25,7 +21,12 @@
 
     let sectionRef: HTMLElement;
 
-    onMount(() => {
+    onMount(async () => {
+        const { gsap } = await import('gsap');
+        const { ScrollTrigger } = await import('gsap/dist/ScrollTrigger');
+        
+        gsap.registerPlugin(ScrollTrigger);
+        
         const ctx = gsap.context(() => {
             gsap.from('.pillar-card', {
                 scrollTrigger: {

@@ -1,10 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-    import gsap from 'gsap';
-    import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
     import { slide } from 'svelte/transition';
-
-    gsap.registerPlugin(ScrollTrigger);
 
     let sectionRef: HTMLElement;
     let isExpanded = false;
@@ -13,7 +9,12 @@
         isExpanded = !isExpanded;
     }
 
-    onMount(() => {
+    onMount(async () => {
+        const { gsap } = await import('gsap');
+        const { ScrollTrigger } = await import('gsap/dist/ScrollTrigger');
+        
+        gsap.registerPlugin(ScrollTrigger);
+        
         const ctx = gsap.context(() => {
             gsap.from('.bg-content', {
                 scrollTrigger: {

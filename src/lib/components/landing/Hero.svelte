@@ -1,7 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import Button from '$lib/components/ui/Button.svelte';
-    import gsap from 'gsap';
     
     let heroRef: HTMLElement;
     let titleRef: HTMLElement;
@@ -10,7 +9,9 @@
     let blob1Ref: HTMLElement;
     let blob2Ref: HTMLElement;
 
-    onMount(() => {
+    onMount(async () => {
+        const { gsap } = await import('gsap');
+        
         const tl = gsap.timeline();
 
         tl.from(titleRef.querySelectorAll('.line'), {
