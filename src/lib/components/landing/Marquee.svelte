@@ -19,7 +19,7 @@
     >
         <div class="{themeClass} py-3 whitespace-nowrap border-y-2 select-none overflow-hidden">
             <div class="inline-flex animate-marquee" style="animation-duration: {speed}s; animation-direction: {direction}">
-                {#each Array(7) as _, i}
+                {#each Array(10) as _, i}
                     <span class="font-bold uppercase tracking-widest text-sm mx-4 flex items-center gap-4 shrink-0">
                         {@html text} <span class="w-1.5 h-1.5 bg-current rounded-full opacity-50"></span>
                     </span>
