@@ -1,13 +1,18 @@
 import { browser } from '$app/environment';
-import { init, register, locale, waitLocale, getLocaleFromNavigator } from 'svelte-i18n';
-import { writable, get } from 'svelte/store';
+import { init, register, locale, waitLocale, getLocaleFromNavigator, addMessages } from 'svelte-i18n';
+import { writable } from 'svelte/store';
+
+// Import Indonesian locale synchronously so it's immediately available
+import idLocale from './id.json';
 
 const defaultLocale = 'id';
 
-register('id', () => import('./id.json'));
+// Add Indonesian messages synchronously (no waiting needed)
+addMessages('id', idLocale);
+
+// Register English for lazy loading (only loads when user switches)
 register('en', () => import('./en.json'));
 
-// Get the initial locale
 function getInitialLocale(): string {
     if (!browser) return defaultLocale;
     return window.localStorage.getItem('locale') || getLocaleFromNavigator() || defaultLocale;
@@ -18,16 +23,12 @@ init({
     initialLocale: getInitialLocale(),
 });
 
-// Track if locale is loaded - start as true on server to prevent flash
-export const isLocaleLoaded = writable(!browser);
+export const isLocaleLoaded = writable(true);
 
-// Wait for locale to load on client
 if (browser) {
-    waitLocale().then(() => {
-        isLocaleLoaded.set(true);
-    });
+    // Wait for locale if user switches to English
+    waitLocale();
     
-    // Also listen for locale changes and persist to localStorage
     locale.subscribe((value) => {
         if (value) {
             window.localStorage.setItem('locale', value);
@@ -36,4 +37,3 @@ if (browser) {
 }
 
 export { locale, waitLocale };
-
