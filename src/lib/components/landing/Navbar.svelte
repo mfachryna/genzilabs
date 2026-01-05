@@ -45,7 +45,7 @@
                 onclick={toggleLocale}
                 class="px-3 py-2 text-xs font-bold border border-white/20 text-white/70 hover:text-brand-neon hover:border-brand-neon transition-all uppercase tracking-wider"
             >
-                {$locale === 'id' ? 'EN' : 'ID'}
+                {$locale === 'id' ? 'ID' : 'EN'}
             </button>
             
             <a href="/contact" class="hidden sm:inline-flex bg-brand-neon text-black font-bold text-xs px-6 py-3 hover:bg-white hover:scale-105 transition-all duration-300">
@@ -89,7 +89,7 @@
                     onclick={() => { toggleLocale(); isMobileMenuOpen = false; }}
                     class="px-4 py-3 rounded-lg hover:bg-white/5 text-sm font-bold text-white/80 hover:text-brand-neon transition-colors text-left"
                 >
-                    🌐 {$locale === 'id' ? 'Switch to English' : 'Ganti ke Indonesia'}
+                    {$locale === 'id' ? 'Switch to English' : 'Ganti ke Indonesia'}
                 </button>
                 
                 <a 
