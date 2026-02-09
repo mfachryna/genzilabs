@@ -24,11 +24,6 @@
                         {@html text} <span class="w-1.5 h-1.5 bg-current rounded-full opacity-50"></span>
                     </span>
                 {/each}
-                {#each Array(10) as _, i}
-                    <span class="font-bold uppercase tracking-widest text-sm mx-4 flex items-center gap-4 shrink-0">
-                        {@html text} <span class="w-1.5 h-1.5 bg-current rounded-full opacity-50"></span>
-                    </span>
-                {/each}
             </div>
         </div>
     </div>
