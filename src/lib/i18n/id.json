@@ -128,7 +128,7 @@
     "storyPara5": "TBH kita pengen nambah pendapatan dan hidup lebih nyaman. TAPI lebih dari itu, ada rasa \"apa sih yang bisa kita lakuin buat masyarakat?\" ditengah kondisi negara kita yang kek gini. Kita resah waktu liat ide keren anak muda di Indonesia ini cuma lewat obrolan ditongkrongan doang. Kita yakin, potensi Gen Z itu gede banget kalo disalurin bener, bisa meledak!",
     "readMore": "Baca Selengkapnya",
     "readLess": "Lebih Dikit Aja",
-    "quote": "千里之行，始于足下 <br> A journey of a thousand miles begins with a single step",
+    "quote": "千里之行，始于足下 A journey of a thousand miles begins with a single step",
     "quoteAuthor": "- Lao Tzu -",
     "pillarsLabel": "DNA KITA",
     "pillarsHeadline": "Pilar-Pilar Kami",
@@ -184,7 +184,13 @@
     "headline": "Yang Udah Kita Bikin",
     "description": "Koleksi produk digital yang lahir dari keresahan nyata. Ada yang udah jadi, ada yang lagi dibangun.",
     "comingSoon": "Segera Hadir",
-    "comingSoonDesc": "Kita lagi sibuk ngoding dan ngedesain produk-produk keren. Balik lagi nanti ya!"
+    "comingSoonDesc": "Kita lagi sibuk ngoding dan ngedesain produk-produk keren. Balik lagi nanti ya!",
+    "moreComingTitle": "Kita ngga berhenti di sini.",
+    "moreComingDesc": "Masih banyak ide lain yang lagi dimasak. Kindly wait ya kakak-kakak semuah!",
+    "monger": {
+      "title": "Monger",
+      "desc": "Lebih dekat dengan uangmu. Catat pengeluaran, atur ke dalam kantong-kantong, dan pahami ke mana ia pergi. Mulai dengan pelan, catat satu per satu."
+    }
   },
   "error": {
     "title": "Waduh, Ada yang Salah!",

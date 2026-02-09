@@ -3,20 +3,8 @@
     import Navbar from '$lib/components/landing/Navbar.svelte';
     import Footer from '$lib/components/landing/Footer.svelte';
     import Button from '$lib/components/ui/Button.svelte';
-
-    // Mock data - Uncomment to test the card interaction/layout
-    // const products = [
-    //     { title: "Genzi Starter", desc: "Template SvelteKit production-ready dengan style Neo-Brutalist.", link: "#" },
-    //     { title: "Neon UI", desc: "Library komponen UI yang bold dan playful untuk developer kreatif.", link: "#" }
-    // ];
-    
-    interface Product {
-        title: string;
-        desc: string;
-        link: string;
-    }
-
-    let products: Product[] = [];
+    import ProductCard from '$lib/components/products/ProductCard.svelte';
+    import { products } from '$lib/data/products';
 </script>
 
 <div class="min-h-screen bg-dark-bg text-white font-sans selection:bg-brand-neon selection:text-black flex flex-col">
@@ -31,21 +19,36 @@
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {#each products as product}
-                    <div class="group bg-dark-card border-2 border-white/10 p-8 flex flex-col transition-all duration-300 hover:-translate-y-2 hover:translate-x-1 hover:border-brand-neon hover:shadow-[8px_8px_0px_#9D00FF]">
-                        <div class="mb-6">
-                            <div class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 group-hover:bg-brand-neon group-hover:text-black transition-colors duration-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-                            </div>
-                            <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-brand-neon transition-colors">{product.title}</h3>
-                            <p class="text-white/60 leading-relaxed font-light">{product.desc}</p>
-                        </div>
-                        <div class="mt-auto">
-                            <Button href={product.link} class="w-full">
-                                {$_('productsPage.viewProduct')}
-                            </Button>
-                        </div>
-                    </div>
+                    <ProductCard {product} />
                 {/each}
+            </div>
+
+            <!-- More Coming Section -->
+            <div class="mt-24 flex justify-center">
+                <div class="relative group max-w-lg w-full text-center p-10 bg-dark-card border-2 border-white/10 hover:border-brand-neon/50 transition-all duration-500">
+                    <!-- Decorative corner accent -->
+                    <div class="absolute -top-3 -right-3 w-6 h-6 bg-brand-neon"></div>
+                    
+                    <!-- Animated pulse background -->
+                    <div class="absolute inset-0 bg-brand-neon/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    
+                    <!-- Content -->
+                    <div class="relative z-10 space-y-4">
+                        <!-- Sparkle Icon -->
+                        <div class="inline-flex items-center justify-center w-14 h-14 bg-white/5 rounded-full mb-2 group-hover:bg-brand-neon/10 transition-colors duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-brand-neon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+                            </svg>
+                        </div>
+                        
+                        <h2 class="text-2xl md:text-3xl font-bold text-white group-hover:text-brand-neon transition-colors duration-300">
+                            {$_('products.moreComingTitle')}
+                        </h2>
+                        <p class="text-white/60 text-lg font-light leading-relaxed">
+                            {$_('products.moreComingDesc')}
+                        </p>
+                    </div>
+                </div>
             </div>
         {:else}
             <div class="grow flex flex-col items-center justify-center min-h-[50vh] text-center space-y-8 animate-fade-in py-20">

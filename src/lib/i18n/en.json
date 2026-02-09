@@ -128,7 +128,7 @@
     "storyPara5": "TBH we want to increase income and live more comfortably. BUT more than that, there's this feeling of 'what can we do for society?' in the midst of our country's current condition. We're restless seeing brilliant ideas from Indonesian youth just passing by in hangout conversations. We believe Gen Z's potential is massive if channeled properly, it can blow up!",
     "readMore": "Read More",
     "readLess": "Show Less",
-    "quote": "千里之行，始于足下 <br> A journey of a thousand miles begins with a single step",
+    "quote": "千里之行，始于足下 A journey of a thousand miles begins with a single step",
     "quoteAuthor": "- Lao Tzu -",
     "pillarsLabel": "OUR DNA",
     "pillarsHeadline": "Our Pillars",
@@ -184,7 +184,13 @@
     "headline": "What We've Built",
     "description": "A collection of digital products born from real frustrations. Some are done, some are being built.",
     "comingSoon": "Coming Soon",
-    "comingSoonDesc": "We're busy coding and designing cool products. Check back later!"
+    "comingSoonDesc": "We're busy coding and designing cool products. Check back later!",
+    "moreComingTitle": "We're not stopping here.",
+    "moreComingDesc": "More ideas are coming, we're still cooking. Stay tuned, friends!",
+    "monger": {
+      "title": "Monger",
+      "desc": "Get closer to your money. Track what you spend, organize it into pockets, and slowly understand where it goes. Start small, one transaction at a time."
+    }
   },
   "error": {
     "title": "Yikes, Something Went Wrong!",
