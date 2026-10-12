@@ -1,6 +1,8 @@
 <script lang="ts">
     import { _ } from 'svelte-i18n';
     import Button from '$lib/components/ui/Button.svelte';
+
+    const currentYear = new Date().getFullYear();
 </script>
 
 <footer class="bg-dark-bg pt-24 pb-12">
@@ -49,6 +51,6 @@
 
     <!-- Bottom -->
     <div class="container border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-white/30">
-        <p>{$_('footer.copyright')}</p>
+        <p>{$_('footer.copyright', { values: { year: currentYear } })}</p>
     </div>
 </footer>
